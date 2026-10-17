@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio and resume website of Vinay Kumar Kolakani — AI, LLM, Python and software projects." />
+  <title>Vinay Kumar Kolakani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">Vinay Kumar Kolakani</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="hello">Hello, I'm</p>
+        <h1>Vinay Kumar<br><span>Kolakani</span></h1>
+        <h2>AI/ML Learner | Python Developer</h2>
+        <p class="hero-text">I am interested in Artificial Intelligence, Large Language Models and software development. I have worked on AI/LLM tasks during my internship and enjoy learning by building small projects.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Projects</a>
+          <a class="button secondary" href="assets/Vinay_Kumar_Kolakani_Resume.pdf" download>Download Resume</a>
+        </div>
+        <p class="location">Hyderabad, Telangana · India</p>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame"><img src="assets/vinay-photo.png" alt="Vinay Kumar Kolakani in formal attire"></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <h2 class="section-heading">About Me</h2>
+      <p>I completed my B.Tech at Malla Reddy Engineering College in 2026. My main interests are Python, AI/ML, LLM applications, RAG and cybersecurity fundamentals.</p>
+      <p>During my AI/LLM internship at DataFactZ Solutions, I worked with LangChain, document search, vector stores, citation-based answers and tool calling. I am continuing to improve my coding skills and build practical applications.</p>
+    </section>
+
+    <section class="section" id="skills">
+      <h2 class="section-heading">My Skills</h2>
+      <p class="section-intro">These are the technologies and topics I have studied or used in projects.</p>
+      <div class="skill-tabs">
+        <button class="skill-tab active" data-category="all">All</button>
+        <button class="skill-tab" data-category="programming">Programming</button>
+        <button class="skill-tab" data-category="ai">AI / ML</button>
+        <button class="skill-tab" data-category="tools">Tools & Web</button>
+      </div>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-card" data-category="programming"><h3>Python</h3><p>Programming and basic automation</p></div>
+        <div class="skill-card" data-category="programming"><h3>C (Basic)</h3><p>Programming fundamentals</p></div>
+        <div class="skill-card" data-category="ai"><h3>Machine Learning</h3><p>Basic ML concepts and projects</p></div>
+        <div class="skill-card" data-category="ai"><h3>LLMs and RAG</h3><p>Document search and grounded answers</p></div>
+        <div class="skill-card" data-category="ai"><h3>AI Agents & Tool Calling</h3><p>Learning agent workflows and tools</p></div>
+        <div class="skill-card" data-category="tools"><h3>LangChain</h3><p>LLM application development</p></div>
+        <div class="skill-card" data-category="tools"><h3>FastAPI</h3><p>Basic API development</p></div>
+        <div class="skill-card" data-category="tools"><h3>Pandas, NumPy, Matplotlib</h3><p>Working with data</p></div>
+        <div class="skill-card" data-category="tools"><h3>HTML & CSS</h3><p>Web page structure and styling</p></div>
+        <div class="skill-card" data-category="tools"><h3>JavaScript</h3><p>Basic interactivity for web pages</p></div>
+        <div class="skill-card" data-category="tools"><h3>REST APIs & JSON</h3><p>API and data basics</p></div>
+        <div class="skill-card" data-category="tools"><h3>Cybersecurity</h3><p>Fundamentals and networking basics</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <h2 class="section-heading">Internship Experience</h2>
+      <div class="simple-card">
+        <h3>AI/LLM Intern</h3>
+        <p class="muted">DataFactZ Solutions Pvt. Ltd. · Hyderabad · Jul 2026 – Sep 2026</p>
+        <ul>
+          <li>Worked on an agentic chat application using LangChain.</li>
+          <li>Used document chunking and vector-store indexing for semantic search.</li>
+          <li>Worked on source citations and explored tool calling and MCP.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2 class="section-heading">My Projects</h2>
+      <p class="section-intro">Some projects I have worked on as part of my learning.</p>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Movie Recommendation System</h3>
+          <p>Built a movie recommendation project using the MovieLens dataset and cosine similarity. Used Pandas, NumPy and Matplotlib for data processing and visualization.</p>
+          <div class="tags"><span>Python</span><span>Pandas</span><span>Machine Learning</span></div>
+        </article>
+        <article class="project-card">
+          <h3>Hand Gesture-Based Cursor Control</h3>
+          <p>Used MediaPipe and OpenCV to track hand landmarks and control mouse actions using hand gestures.</p>
+          <div class="tags"><span>Python</span><span>MediaPipe</span><span>OpenCV</span></div>
+        </article>
+        <article class="project-card">
+          <h3>AI-Powered Personal Fitness Coach</h3>
+          <p>An AI-based fitness project designed to give interactive exercise guidance and personalized coaching.</p>
+          <div class="tags"><span>AI</span><span>Deep Learning</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <h2 class="section-heading">Education</h2>
+      <div class="education-list">
+        <div class="simple-card"><h3>B.Tech</h3><p>Malla Reddy Engineering College · 2026</p><strong>CGPA: 6.35</strong></div>
+        <div class="simple-card"><h3>Intermediate</h3><p>Sri Chaitanya Junior College</p><strong>768/1000 (76.8%)</strong></div>
+        <div class="simple-card"><h3>Secondary School (CBSE)</h3><p>Vijetha High School</p><strong>309/500 (61.8%)</strong></div>
+      </div>
+      <h3 class="subheading">Certifications & Workshops</h3>
+      <ul class="cert-list">
+        <li>Core Java — Naresh Technologies</li>
+        <li>Python Workshop — Skilltimate</li>
+        <li>C Workshop — Skilltimate</li>
+        <li>Advanced AI & Deep Learning Internship — Skilltimate Technologies</li>
+      </ul>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <h2 class="section-heading">Contact Me</h2>
+      <p>If you have an internship, entry-level job or project opportunity related to AI/LLM or software development, feel free to contact me.</p>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:vinaykumarkolakani6@gmail.com">Email Me</a>
+        <button class="button secondary" id="copyEmail">Copy Email</button>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/kumarkvinay095-cmd" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/k-vinay-kumar-a49bb9251" target="_blank" rel="noreferrer">LinkedIn</a>
+        <span>+91 9550045289</span>
+        <span>Hyderabad, India</span>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>© 2026 Vinay Kumar Kolakani · Personal Portfolio</p><a href="#home">Back to top ↑</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied</div>
+  <script src="script.js"></script>
+</body>
+</html>
